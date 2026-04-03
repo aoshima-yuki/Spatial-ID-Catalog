@@ -1,7 +1,12 @@
 name: Collect Spatial ID OSS
 
 on:
-  workflow_dispatch:  # 手動トリガー
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   collect:
@@ -35,5 +40,3 @@ jobs:
           git add docs/data/catalog.json
           git diff --cached --quiet || git commit -m "Update OSS catalog"
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
