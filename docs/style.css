@@ -2,6 +2,7 @@ body {
   font-family: "Noto Sans JP", system-ui, sans-serif;
   margin: 0;
   background: #f7f9fc;
+  color: #1f2937;
 }
 
 header {
@@ -10,13 +11,42 @@ header {
   padding: 1.5em 2em;
 }
 
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
 header h1 {
   margin: 0;
+  font-size: 2rem;
 }
 
 header p {
-  margin: 0.3em 0 0;
-  opacity: 0.9;
+  margin: 0.4em 0 0;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+.lang-switch {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 160px;
+}
+
+.lang-switch label {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.lang-switch select {
+  padding: 0.55rem 0.7rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.95rem;
 }
 
 .warning {
@@ -34,6 +64,20 @@ header p {
 h2 {
   border-left: 6px solid #003f88;
   padding-left: 0.5em;
+  margin-top: 2rem;
+}
+
+p,
+li {
+  line-height: 1.8;
+}
+
+.method-list {
+  padding-left: 1.4em;
+}
+
+.keyword-box {
+  margin-top: 1rem;
 }
 
 code {
@@ -41,6 +85,13 @@ code {
   padding: 4px 6px;
   border-radius: 4px;
   display: inline-block;
+  margin-top: 0.4rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.table-wrap {
+  overflow-x: auto;
 }
 
 table {
@@ -85,4 +136,18 @@ footer {
   color: white;
   text-align: center;
   font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1.2em 1em;
+  }
+
+  .container {
+    padding: 1em;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
 }
