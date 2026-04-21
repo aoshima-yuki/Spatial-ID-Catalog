@@ -27,10 +27,6 @@
   </div>
 </header>
 
-<div class="warning" data-i18n="notice">
-  🚧 本ページは工事中です。掲載内容および分類基準は今後変更される可能性があります。
-</div>
-
 <div class="container">
 
   <h2 data-i18n="overviewTitle">概要</h2>
@@ -49,16 +45,13 @@
       GitHub 上の公開リポジトリを対象に、空間IDに関するキーワードで候補を収集しています。
     </li>
     <li data-i18n="method2">
-      判定対象は、リポジトリ名、リポジトリの説明文、README、Topics です。
+      判定対象は、リポジトリ名、リポジトリの概要、README、トピックです。
     </li>
     <li data-i18n="method3">
       表記ゆれに対応するため、複数のキーワードを用いて検索しています。
     </li>
     <li data-i18n="method4">
       GitHub Search API だけでは README の記載内容を十分に確認できない場合があるため、候補リポジトリごとに README を取得し、キーワードの有無を追加で確認しています。
-    </li>
-    <li data-i18n="method5">
-      自動収集結果には、管理者が設定した除外リポジトリを反映しています。
     </li>
   </ul>
 
@@ -125,9 +118,7 @@
 
 </div>
 
-<footer>
-  <span data-i18n="footerText">空間ID関連OSS一覧表 | GitHub API を用いて自動生成</span>
-</footer>
+<footer></footer>
 
 <script src="script.js"></script>
 </body>
