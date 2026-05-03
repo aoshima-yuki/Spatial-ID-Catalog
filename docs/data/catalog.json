@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T02:46:23.069474Z",
+  "generated_at": "2026-05-03T02:58:53.577793Z",
   "repo_count": 50,
   "repos": [
     {
@@ -68,8 +68,8 @@
       "url": "https://github.com/STOmics/SpatialID",
       "description": "A cell typing method for spatially resolved transcriptomics via transfer learning and spatial embedding",
       "language": "Python",
-      "stars": 5,
-      "updated_at": "2025-12-13T01:52:31Z",
+      "stars": 6,
+      "updated_at": "2026-05-02T06:15:38Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -80,8 +80,8 @@
       },
       "fork": false,
       "open_issues_count": 2,
-      "watchers_count": 5,
-      "forks_count": 2
+      "watchers_count": 6,
+      "forks_count": 3
     },
     {
       "name": "PLATEAU-TwinLink",
@@ -150,7 +150,7 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-05-01T14:04:09Z",
+      "updated_at": "2026-05-02T04:45:10Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -431,28 +431,13 @@
       "forks_count": 0
     },
     {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-05-01T03:30:03Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
       "name": "Kasane-Logic",
       "full_name": "AirBee-Project/Kasane-Logic",
       "url": "https://github.com/AirBee-Project/Kasane-Logic",
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-05-01T02:52:36Z",
+      "updated_at": "2026-05-02T15:35:07Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -462,9 +447,24 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 10,
+      "open_issues_count": 5,
       "watchers_count": 0,
       "forks_count": 2
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-05-02T02:46:27Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
     },
     {
       "name": "Nazori",
