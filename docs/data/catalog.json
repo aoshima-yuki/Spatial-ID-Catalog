@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T02:57:43.384114Z",
+  "generated_at": "2026-05-17T03:31:56.951138Z",
   "repo_count": 50,
   "repos": [
     {
@@ -431,13 +431,28 @@
       "forks_count": 0
     },
     {
+      "name": "Nazori",
+      "full_name": "AirBee-Project/Nazori",
+      "url": "https://github.com/AirBee-Project/Nazori",
+      "description": "CityGMLを空間IDに変換するプログラム",
+      "language": "Rust",
+      "stars": 0,
+      "updated_at": "2026-05-17T03:26:49Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 1,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
       "name": "Spatial-ID-Catalog",
       "full_name": "aoshima-yuki/Spatial-ID-Catalog",
       "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-05-15T03:34:39Z",
+      "updated_at": "2026-05-16T02:57:47Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -465,21 +480,6 @@
       "open_issues_count": 7,
       "watchers_count": 0,
       "forks_count": 2
-    },
-    {
-      "name": "Nazori",
-      "full_name": "AirBee-Project/Nazori",
-      "url": "https://github.com/AirBee-Project/Nazori",
-      "description": "CityGMLを空間IDに変換するプログラム",
-      "language": "Rust",
-      "stars": 0,
-      "updated_at": "2026-04-19T13:44:53Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 1,
-      "watchers_count": 0,
-      "forks_count": 0
     },
     {
       "name": "spatial-ide",
