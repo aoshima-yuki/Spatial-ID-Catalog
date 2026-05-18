@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T03:31:56.951138Z",
+  "generated_at": "2026-05-18T03:44:59.884469Z",
   "repo_count": 50,
   "repos": [
     {
@@ -150,7 +150,7 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-05-14T13:48:26Z",
+      "updated_at": "2026-05-17T04:01:25Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -437,26 +437,11 @@
       "description": "CityGMLを空間IDに変換するプログラム",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-05-17T03:26:49Z",
+      "updated_at": "2026-05-17T06:02:58Z",
       "topics": [],
       "license": null,
       "fork": false,
       "open_issues_count": 1,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-05-16T02:57:47Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
       "watchers_count": 0,
       "forks_count": 0
     },
@@ -467,7 +452,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-05-14T13:48:17Z",
+      "updated_at": "2026-05-17T04:09:58Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -477,9 +462,24 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 7,
+      "open_issues_count": 8,
       "watchers_count": 0,
       "forks_count": 2
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-05-17T03:32:01Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
     },
     {
       "name": "spatial-ide",
