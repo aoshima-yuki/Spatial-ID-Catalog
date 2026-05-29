@@ -1,11 +1,10 @@
-````markdown
 ---
 
 # Spatial ID OSS List
 
 本リポジトリは、GitHub上で公開されている空間ID（Spatial ID）関連OSSの候補を自動収集し、リストとして可視化するためのものです。
 
-公開ページ：  
+公開ページ：
 https://aoshima-yuki.github.io/Spatial-ID-OSS-List/
 
 ---
@@ -29,19 +28,19 @@ https://aoshima-yuki.github.io/Spatial-ID-OSS-List/
 ```text
 Spatial-ID-OSS-List/
 ├─ .github/workflows/
-│   └─ collect.yml        # OSS情報収集の自動化
+│  └─ collect.yml        # OSS情報収集の自動化
 ├─ docs/
-│   ├─ index.html         # Webページ
-│   ├─ script.js          # 表示ロジック
-│   ├─ style.css
-│   └─ data/
-│       └─ catalog.json   # リストデータ（自動生成）
+│  ├─ index.html         # Webページ
+│  ├─ script.js          # 表示ロジック
+│  ├─ style.css
+│  └─ data/
+│     └─ catalog.json    # リストデータ（自動生成）
 ├─ scripts/
-│   └─ collect.py         # GitHub API 収集スクリプト
+│  └─ collect.py         # GitHub API 収集スクリプト
 ├─ config/
-│   └─ exclude_repos.json # 除外リスト（手動管理）
+│  └─ exclude_repos.json # 除外リスト（手動管理）
 └─ README.md
-````
+```
 
 ---
 
@@ -142,6 +141,3 @@ config/exclude_repos.json
 * GitHub API の仕様や検索条件により、すべての関連OSSを網羅できるとは限りません。
 
 ---
-
-```
-```
