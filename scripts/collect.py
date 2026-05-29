@@ -1,7 +1,3 @@
-
-## collect.py
-
-```python
 import requests
 import json
 import os
@@ -28,8 +24,6 @@ REPO_SEARCH_URL = "https://api.github.com/search/repositories"
 CODE_SEARCH_URL = "https://api.github.com/search/code"
 
 # リポジトリ検索用クエリ
-# GitHub Search API 側でも大文字・小文字は実質的に区別されにくいが、
-# 後段のキーワード判定では明示的に小文字化して判定する。
 REPO_QUERY = (
     '"空間ID" OR "空間ＩＤ" OR "spatialid" OR "spatial-id" '
     'in:name,description,topics'
@@ -249,7 +243,7 @@ def main():
 
     oss_list = []
 
-    # 3. 候補ごとにREADMEを取得し、検索・判定対象項目にキーワードが含まれるか確認
+    # 3. 候補ごとにREADMEを取得し、検索対象項目にキーワードが含まれるか確認
     for full_name, repo in repo_map.items():
         if full_name in exclude_repos:
             print(f"Excluded: {full_name}")
