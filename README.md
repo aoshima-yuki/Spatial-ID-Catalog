@@ -26,7 +26,7 @@ https://aoshima-yuki.github.io/Spatial-ID-Catalog/
 ## システム構成
 
 ```text
-Spatial-ID-Catalog/
+Spatial-ID-OSS-List/
 ├─ .github/workflows/
 │   └─ collect.yml        # OSS情報収集の自動化
 ├─ docs/
@@ -98,7 +98,7 @@ Actions → Collect Spatial ID OSS → Run workflow
 
 ---
 
-## 除外方法（重要）
+## 除外方法
 
 キーワードベースの自動収集のため、
 空間IDと無関係なリポジトリが含まれる場合があります。
@@ -130,7 +130,7 @@ config/exclude_repos.json
 
 ## 注意事項
 
-* 本カタログは自動収集に基づくものであり、内容の正確性を保証するものではありません
+* 本リストは自動収集に基づくものであり、内容の正確性を保証するものではありません
 * 掲載は評価・推奨を意味しません
 * GitHub API の仕様により、すべての対象OSSを網羅できない場合があります
 
