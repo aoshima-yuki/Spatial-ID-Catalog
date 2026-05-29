@@ -5,7 +5,6 @@ let currentLang = "ja";
 const i18n = {
   ja: {
     pageTitle: "空間ID関連OSSリスト",
-    pageSubtitle: "GitHub上で公開されている空間ID関連OSSの候補を自動収集し、リストとして表示しています。",
     overviewTitle: "概要",
     overviewBody: "本ページは、GitHub上で公開されている空間ID関連OSSの候補を自動収集し、リストとして表示するものです。",
     generatedAtLabel: "リスト生成日時：",
@@ -50,7 +49,6 @@ const i18n = {
   },
   en: {
     pageTitle: "Spatial ID OSS List",
-    pageSubtitle: "This page automatically collects candidate OSS repositories related to Spatial ID on GitHub and displays them as a list.",
     overviewTitle: "Overview",
     overviewBody: "This page automatically collects candidate OSS repositories related to Spatial ID on GitHub and displays them as a list.",
     generatedAtLabel: "List generated at: ",
