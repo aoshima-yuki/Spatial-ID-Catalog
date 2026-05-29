@@ -46,11 +46,13 @@ Spatial-ID-OSS-List/
 
 ## データ更新の仕組み
 
-1. GitHub Actions（collect.yml）が実行される
-2. `collect.py` によりGitHub APIからリポジトリ情報を取得
-3. READMEを含めてキーワード判定
-4. `docs/data/catalog.json` を更新
-5. GitHub Pages により自動反映
+1.GitHub Actions（collect.yml）を実行します。
+2.collect.py により、GitHub API から候補リポジトリを収集します。
+3.リポジトリ検索に加え、README等のMarkdownファイル検索からも候補を収集します。
+4.候補リポジトリごとにメタデータとREADMEを取得します。
+5.検索対象項目にキーワードが含まれるかを確認します。
+6.除外リストに登録されたリポジトリを除外します。
+7.docs/data/catalog.json を生成し、GitHub Pages に反映します。
 
 ---
 
@@ -75,9 +77,11 @@ Actions → Collect Spatial ID OSS → Run workflow
 ## 検索条件
 
 以下のキーワードを対象に収集しています：
-
+英字の大文字・小文字は区別せずに判定します。
+たとえば、SpatialID、spatialid、SPATIALID は同じ扱いになります。
 ```
-空間ID, 空間ＩＤ, spatial-id, spatialid, SPATIAL-ID, SPATIALID
+空間ID, 空間ＩＤ, spatial-id, spatialid
+
 ```
 
 対象フィールド：
