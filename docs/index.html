@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>空間ID関連OSS一覧表</title>
+  <title>空間ID関連OSSリスト</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +11,9 @@
 <header>
   <div class="header-main">
     <div>
-      <h1 data-i18n="pageTitle">空間ID関連OSS一覧表</h1>
+      <h1 data-i18n="pageTitle">空間ID関連OSSリスト</h1>
       <p data-i18n="pageSubtitle">
-        GitHubに登録された空間IDに関連する情報を自動収集し、その結果を一覧で表示しています。
+        GitHub上で公開されている空間ID関連OSSの候補を自動収集し、リストとして表示しています。
       </p>
     </div>
 
@@ -31,33 +31,43 @@
 
   <h2 data-i18n="overviewTitle">概要</h2>
   <p data-i18n="overviewBody">
-    本ページは、GitHubに登録された空間IDに関連する情報を自動収集し、その結果を一覧で表示するものです。
-    データは GitHub API を用いて定期的に更新されます。
+    本ページは、GitHub上で公開されている空間ID関連OSSの候補を自動収集し、リストとして表示するものです。掲載内容は、空間IDに関するOSSの発見性を高めるための参考情報です。
   </p>
 
   <p>
-    <strong data-i18n="generatedAtLabel">一覧生成日時：</strong><span id="generatedAt">読み込み中...</span>
+    <strong data-i18n="generatedAtLabel">リスト生成日時：</strong><span id="generatedAt">読み込み中...</span>
   </p>
 
-  <h2 data-i18n="methodTitle">一覧表作成方法</h2>
-  <ul class="method-list">
+  <h2 data-i18n="methodTitle">作成方法</h2>
+  <ol class="method-list">
     <li data-i18n="method1">
-      GitHub 上の公開リポジトリを対象に、空間IDに関するキーワードで候補を収集しています。
+      GitHub API を用いて、公開リポジトリからキーワードに一致する候補を収集します。
     </li>
     <li data-i18n="method2">
-      判定対象は、リポジトリ名、リポジトリの概要、README、トピックです。
+      リポジトリ検索に加え、README等のMarkdownファイル検索からも候補を収集します。
     </li>
     <li data-i18n="method3">
-      表記ゆれに対応するため、複数のキーワードを用いて検索しています。
+      候補リポジトリごとにメタデータとREADMEを取得し、検索・判定対象項目にキーワードが含まれるかを確認します。
     </li>
     <li data-i18n="method4">
-      GitHub Search API だけでは README の記載内容を十分に確認できない場合があるため、候補リポジトリごとに README を取得し、キーワードの有無を追加で確認しています。
+      除外リストに登録されたリポジトリを除外し、Stars数及び更新日時を基準に並べ替えてリストデータを生成します。
     </li>
+  </ol>
+
+  <h2 data-i18n="targetTitle">検索・判定対象項目</h2>
+  <ul class="target-list">
+    <li data-i18n="target1">リポジトリ名（name）</li>
+    <li data-i18n="target2">リポジトリ概要（description）</li>
+    <li data-i18n="target3">Topics</li>
+    <li data-i18n="target4">README</li>
   </ul>
 
   <div class="keyword-box">
     <strong data-i18n="keywordsLabel">使用キーワード：</strong>
-    <code>空間ID, 空間ＩＤ, spatial-id, spatialid, SPATIAL-ID, SPATIALID</code>
+    <code>空間ID, 空間ＩＤ, spatial-id, spatialid</code>
+    <p class="keyword-note" data-i18n="keywordNote">
+      英字の大文字・小文字は区別せずに判定します。
+    </p>
   </div>
 
   <h2 data-i18n="linksTitle">関連リンク</h2>
@@ -86,12 +96,13 @@
 
   <h2 data-i18n="notesTitle">注意事項</h2>
   <ul>
-    <li data-i18n="note1">本一覧は自動収集により生成されています</li>
-    <li data-i18n="note2">掲載されている情報は評価・推奨を意味するものではありません</li>
-    <li data-i18n="note3">一覧は Stars 数の多い順を基本に表示しています</li>
+    <li data-i18n="note1">本リストはキーワードに基づく自動収集により生成しています。</li>
+    <li data-i18n="note2">掲載されているリポジトリは、評価・推奨・認定を意味するものではありません。</li>
+    <li data-i18n="note3">キーワード検索の特性上、空間IDと直接関係しないリポジトリが含まれる場合があります。</li>
+    <li data-i18n="note4">GitHub API の仕様や検索条件により、すべての関連OSSを網羅できるとは限りません。</li>
   </ul>
 
-  <h2 data-i18n="tableTitle">一覧</h2>
+  <h2 data-i18n="tableTitle">OSSリスト</h2>
 
   <div class="table-wrap">
     <table id="catalog">
