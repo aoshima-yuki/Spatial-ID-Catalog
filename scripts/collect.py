@@ -1,3 +1,7 @@
+
+## collect.py
+
+```python
 import requests
 import json
 import os
@@ -23,26 +27,27 @@ HEADERS = {
 REPO_SEARCH_URL = "https://api.github.com/search/repositories"
 CODE_SEARCH_URL = "https://api.github.com/search/code"
 
-# repository search 用キーワード
+# リポジトリ検索用クエリ
+# GitHub Search API 側でも大文字・小文字は実質的に区別されにくいが、
+# 後段のキーワード判定では明示的に小文字化して判定する。
 REPO_QUERY = (
-    '"空間ID" OR "空間ＩＤ" OR "spatialid" OR "SPATIALID" OR '
-    '"spatial-id" OR "SPATIAL-ID" in:name,description,topics'
+    '"空間ID" OR "空間ＩＤ" OR "spatialid" OR "spatial-id" '
+    'in:name,description,topics'
 )
 
-# code search 用キーワード（README/Markdown から候補 repo を拾う）
+# README/Markdown 検索用クエリ
 CODE_QUERY = (
-    '("空間ID" OR "空間ＩＤ" OR "spatialid" OR "SPATIALID" OR '
-    '"spatial-id" OR "SPATIAL-ID") '
+    '("空間ID" OR "空間ＩＤ" OR "spatialid" OR "spatial-id") '
     'filename:README.md OR filename:README.rst OR extension:md'
 )
 
+# 検索・判定に使用するキーワード
+# 英字は大文字・小文字を区別せず判定する。
 KEYWORDS = [
     "空間ID",
     "空間ＩＤ",
     "spatialid",
-    "SPATIALID",
-    "spatial-id",
-    "SPATIAL-ID"
+    "spatial-id"
 ]
 
 EXCLUDE_FILE = "config/exclude_repos.json"
@@ -63,10 +68,12 @@ def load_exclude_repos():
 
 def github_get(url, params=None):
     res = requests.get(url, headers=HEADERS, params=params)
+
     if res.status_code != 200:
         print(f"GitHub API error: {res.status_code}")
         print(res.text)
         return None
+
     return res.json()
 
 
@@ -80,6 +87,7 @@ def search_repositories():
     }
 
     items = []
+
     while True:
         data = github_get(REPO_SEARCH_URL, params=params)
         if data is None:
@@ -91,7 +99,7 @@ def search_repositories():
 
         items.extend(page_items)
 
-        # 最大4ページ
+        # API使用量を抑えるため、最大4ページまで取得する
         if params["page"] >= 4 or len(page_items) < 100:
             break
 
@@ -124,7 +132,7 @@ def search_code_repositories():
             if repo and repo.get("full_name"):
                 repo_full_names.add(repo["full_name"])
 
-        # 最大2ページ程度で抑制
+        # API使用量を抑えるため、最大2ページまで取得する
         if params["page"] >= 2 or len(page_items) < 100:
             break
 
@@ -136,20 +144,22 @@ def search_code_repositories():
 
 def fetch_repo(full_name):
     url = f"https://api.github.com/repos/{full_name}"
-    data = github_get(url)
-    return data
+    return github_get(url)
 
 
 def fetch_readme_text(full_name):
     readme_url = f"https://api.github.com/repos/{full_name}/readme"
 
     try:
-        r = requests.get(readme_url, headers=HEADERS)
-        if r.status_code != 200:
+        res = requests.get(readme_url, headers=HEADERS)
+        if res.status_code != 200:
             return ""
 
-        readme_data = r.json()
-        content = base64.b64decode(readme_data["content"]).decode("utf-8", errors="ignore")
+        readme_data = res.json()
+        content = base64.b64decode(readme_data["content"]).decode(
+            "utf-8",
+            errors="ignore"
+        )
         return content
     except Exception as e:
         print(f"Error fetching README for {full_name}: {e}")
@@ -159,8 +169,9 @@ def fetch_readme_text(full_name):
 def contains_keyword(text):
     if not text:
         return False
-    lower_text = text.lower()
-    return any(k.lower() in lower_text for k in KEYWORDS)
+
+    normalized_text = text.lower()
+    return any(keyword.lower() in normalized_text for keyword in KEYWORDS)
 
 
 def repo_matches(repo, readme_text):
@@ -170,17 +181,20 @@ def repo_matches(repo, readme_text):
 
     if contains_keyword(name):
         return True
+
     if contains_keyword(description):
         return True
+
     if any(contains_keyword(topic) for topic in topics):
         return True
+
     if contains_keyword(readme_text):
         return True
 
     return False
 
 
-def build_catalog_item(repo):
+def build_list_item(repo):
     return {
         "name": repo.get("name"),
         "full_name": repo.get("full_name"),
@@ -198,10 +212,19 @@ def build_catalog_item(repo):
     }
 
 
+def updated_at_timestamp(item):
+    value = item.get("updated_at") or "1970-01-01T00:00:00Z"
+
+    try:
+        return int(datetime.fromisoformat(value.replace("Z", "+00:00")).timestamp())
+    except ValueError:
+        return 0
+
+
 def main():
     exclude_repos = load_exclude_repos()
 
-    # 1) repository search から候補収集
+    # 1. リポジトリ検索により候補を収集
     repo_search_items = search_repositories()
     print(f"Found {len(repo_search_items)} repositories from repository search")
 
@@ -211,7 +234,7 @@ def main():
         if full_name:
             repo_map[full_name] = repo
 
-    # 2) code search から README 起因の候補 repo を追加収集
+    # 2. README等のMarkdownファイル検索により候補を追加収集
     code_repo_names = search_code_repositories()
     print(f"Found {len(code_repo_names)} repositories from code search")
 
@@ -224,8 +247,9 @@ def main():
 
     print(f"Total candidate repositories: {len(repo_map)}")
 
-    catalog = []
+    oss_list = []
 
+    # 3. 候補ごとにREADMEを取得し、検索・判定対象項目にキーワードが含まれるか確認
     for full_name, repo in repo_map.items():
         if full_name in exclude_repos:
             print(f"Excluded: {full_name}")
@@ -234,40 +258,29 @@ def main():
         readme_text = fetch_readme_text(full_name)
 
         if repo_matches(repo, readme_text):
-            catalog.append(build_catalog_item(repo))
+            oss_list.append(build_list_item(repo))
 
         sleep(0.2)
 
-    # Stars降順、同点なら updated_at の新しい順、最後に full_name
-    catalog.sort(
-        key=lambda x: (
-            -(x.get("stars") or 0),
-            x.get("updated_at") or "",
-            x.get("full_name") or ""
-        ),
-        reverse=False
-    )
-
-    # 上の sort は複合キーで reverse=False だと stars の符号で実質降順になるが、
-    # updated_at は逆順にしたいので分かりやすく再ソート
-    catalog.sort(
-        key=lambda x: (
-            -(x.get("stars") or 0),
-            -(int(datetime.fromisoformat((x.get("updated_at") or "1970-01-01T00:00:00+00:00").replace("Z", "+00:00")).timestamp())),
-            x.get("full_name") or ""
+    # 4. Stars降順、同点の場合は更新日時の新しい順で並び替え
+    oss_list.sort(
+        key=lambda item: (
+            -(item.get("stars") or 0),
+            -updated_at_timestamp(item),
+            item.get("full_name") or ""
         )
     )
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "repo_count": len(catalog),
-        "repos": catalog
+        "repo_count": len(oss_list),
+        "repos": oss_list
     }
 
     with open("docs/data/catalog.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Collected {len(catalog)} repositories containing keywords")
+    print(f"Collected {len(oss_list)} repositories containing keywords")
     print("Wrote docs/data/catalog.json")
 
 
