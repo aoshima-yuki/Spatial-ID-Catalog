@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-29T01:22:07.789703Z",
-  "repo_count": 34,
+  "generated_at": "2026-05-29T03:41:02.230826Z",
+  "repo_count": 35,
   "repos": [
     {
       "name": "javascript-sdk",
@@ -344,13 +344,28 @@
       "forks_count": 0
     },
     {
+      "name": "Spatial-ID-OSS-List",
+      "full_name": "ODS-IS-STID/Spatial-ID-OSS-List",
+      "url": "https://github.com/ODS-IS-STID/Spatial-ID-OSS-List",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-05-29T02:04:00Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
       "name": "Spatial-ID-Catalog",
       "full_name": "aoshima-yuki/Spatial-ID-Catalog",
       "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-05-29T01:21:31Z",
+      "updated_at": "2026-05-29T01:22:11Z",
       "topics": [],
       "license": null,
       "fork": false,
