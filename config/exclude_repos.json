@@ -1,3 +1,24 @@
+
+## exclude_repos.json
+
+```json
 [
-  "shiguredo/moqt-js"
+  "shiguredo/moqt-js",
+  "TencentAILabHealthcare/spatialID",
+  "STOmics/SpatialID",
+  "Tiberiu-79/Spatial-identification-of-regions-exposed-to-multi-hazards-at-pan-European-level-EMHERG-",
+  "leeguandong/SpatialID",
+  "lsh2613/MySQL-Spatial-Idx",
+  "sheikhsiddique722-sketch/auberge-noir-spatial-identity",
+  "ibanda-bit/spatial-ide",
+  "rogue-agent1/spatial-idx",
+  "cmgvc/plinth-spatial-ide",
+  "hjxkitchen/Spatial-ideas",
+  "SpaceSQ/S2-Spatial-Identity-Protocol",
+  "SuperBarracuda/SpatialIDE",
+  "bu7ch/spatial-idle-game",
+  "rudychan000/SpatialID_DB",
+  "khaichung2807/SpatialID",
+  "HideBa/cesium-spatial-id",
+  "HideBa/spatial-id-data-script"
 ]
