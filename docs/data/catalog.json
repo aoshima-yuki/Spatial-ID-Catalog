@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T03:45:23.440418Z",
+  "generated_at": "2026-06-27T03:31:15.156282Z",
   "repo_count": 35,
   "repos": [
     {
@@ -350,7 +350,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-06-26T03:36:49Z",
+      "updated_at": "2026-06-27T02:59:07Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -365,7 +365,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-06-26T02:16:51Z",
+      "updated_at": "2026-06-26T18:17:44Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -375,7 +375,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 10,
+      "open_issues_count": 9,
       "watchers_count": 0,
       "forks_count": 2
     },
@@ -386,7 +386,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-06-25T03:37:42Z",
+      "updated_at": "2026-06-26T03:45:28Z",
       "topics": [],
       "license": null,
       "fork": false,
