@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T03:41:54.032432Z",
+  "generated_at": "2026-07-01T03:57:41.391377Z",
   "repo_count": 35,
   "repos": [
     {
@@ -119,7 +119,7 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-06-29T21:31:16Z",
+      "updated_at": "2026-06-30T21:51:45Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -350,7 +350,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-06-30T03:34:44Z",
+      "updated_at": "2026-07-01T03:43:54Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -365,7 +365,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-06-29T20:27:24Z",
+      "updated_at": "2026-06-30T17:43:38Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -375,24 +375,9 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 10,
+      "open_issues_count": 9,
       "watchers_count": 0,
       "forks_count": 2
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-06-29T03:59:34Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
     },
     {
       "name": "Nazori",
@@ -401,7 +386,22 @@
       "description": "CityGMLを空間IDに変換するプログラム",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-06-28T20:29:03Z",
+      "updated_at": "2026-06-30T13:19:33Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-06-30T03:41:58Z",
       "topics": [],
       "license": null,
       "fork": false,
