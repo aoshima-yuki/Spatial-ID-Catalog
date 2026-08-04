@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T02:49:40.541531Z",
+  "generated_at": "2026-08-04T02:32:50.967264Z",
   "repo_count": 35,
   "repos": [
     {
@@ -350,22 +350,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-08-03T02:41:17Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-08-02T02:48:27Z",
+      "updated_at": "2026-08-04T02:25:27Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -380,7 +365,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-08-01T08:33:34Z",
+      "updated_at": "2026-08-03T17:20:02Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -390,9 +375,24 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 16,
+      "open_issues_count": 10,
       "watchers_count": 0,
       "forks_count": 2
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-08-03T02:49:46Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
     },
     {
       "name": "Nazori",
