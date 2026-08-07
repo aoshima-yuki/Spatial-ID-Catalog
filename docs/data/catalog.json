@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T02:35:03.376610Z",
+  "generated_at": "2026-08-07T02:40:26.648818Z",
   "repo_count": 35,
   "repos": [
     {
@@ -119,11 +119,11 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-08-06T00:45:36Z",
+      "updated_at": "2026-08-06T07:42:58Z",
       "topics": [],
       "license": null,
       "fork": false,
-      "open_issues_count": 9,
+      "open_issues_count": 16,
       "watchers_count": 2,
       "forks_count": 2
     },
@@ -350,7 +350,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-08-06T02:27:48Z",
+      "updated_at": "2026-08-07T02:36:02Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -365,7 +365,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-08-05T02:32:08Z",
+      "updated_at": "2026-08-06T02:35:08Z",
       "topics": [],
       "license": null,
       "fork": false,
