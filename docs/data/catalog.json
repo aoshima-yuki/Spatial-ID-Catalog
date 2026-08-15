@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T01:57:13.764357Z",
+  "generated_at": "2026-08-15T01:14:12.703294Z",
   "repo_count": 36,
   "repos": [
     {
@@ -119,11 +119,11 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-08-11T22:56:27Z",
+      "updated_at": "2026-08-14T03:09:04Z",
       "topics": [],
       "license": null,
       "fork": false,
-      "open_issues_count": 12,
+      "open_issues_count": 8,
       "watchers_count": 2,
       "forks_count": 2
     },
@@ -350,7 +350,22 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-08-14T01:49:44Z",
+      "updated_at": "2026-08-15T01:08:43Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-08-14T01:57:18Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -376,21 +391,6 @@
       },
       "fork": false,
       "open_issues_count": 2,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-08-13T01:59:30Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
       "watchers_count": 0,
       "forks_count": 0
     },
