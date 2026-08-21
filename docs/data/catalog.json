@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:13:56.427267Z",
+  "generated_at": "2026-08-21T01:17:26.823043Z",
   "repo_count": 36,
   "repos": [
     {
@@ -119,11 +119,11 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-08-19T12:23:48Z",
+      "updated_at": "2026-08-20T15:09:53Z",
       "topics": [],
       "license": null,
       "fork": false,
-      "open_issues_count": 10,
+      "open_issues_count": 13,
       "watchers_count": 2,
       "forks_count": 2
     },
@@ -350,7 +350,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-08-20T01:09:17Z",
+      "updated_at": "2026-08-21T01:12:19Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -365,7 +365,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-08-19T16:38:23Z",
+      "updated_at": "2026-08-20T05:52:09Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -378,6 +378,21 @@
       "open_issues_count": 12,
       "watchers_count": 0,
       "forks_count": 2
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-08-20T01:14:47Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
     },
     {
       "name": "spatial-ide",
@@ -395,21 +410,6 @@
         "url": null,
         "node_id": "MDc6TGljZW5zZTA="
       },
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-08-19T01:14:47Z",
-      "topics": [],
-      "license": null,
       "fork": false,
       "open_issues_count": 0,
       "watchers_count": 0,
