@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T03:24:49.642169Z",
-  "repo_count": 36,
+  "generated_at": "2026-09-11T03:21:45.120277Z",
+  "repo_count": 37,
   "repos": [
     {
       "name": "javascript-sdk",
@@ -111,6 +111,27 @@
       "open_issues_count": 0,
       "watchers_count": 3,
       "forks_count": 3
+    },
+    {
+      "name": "spatial-id-terrain-voxelizer",
+      "full_name": "Strorkis/spatial-id-terrain-voxelizer",
+      "url": "https://github.com/Strorkis/spatial-id-terrain-voxelizer",
+      "description": "Dynamically generate and visualize Spatial ID voxels from DEM tiles",
+      "language": "TypeScript",
+      "stars": 2,
+      "updated_at": "2026-09-11T00:12:20Z",
+      "topics": [],
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "fork": false,
+      "open_issues_count": 2,
+      "watchers_count": 2,
+      "forks_count": 0
     },
     {
       "name": "Kasane",
@@ -240,27 +261,6 @@
       "forks_count": 0
     },
     {
-      "name": "spatial-id-terrain-voxelizer",
-      "full_name": "Strorkis/spatial-id-terrain-voxelizer",
-      "url": "https://github.com/Strorkis/spatial-id-terrain-voxelizer",
-      "description": "Dynamically generate and visualize Spatial ID voxels from DEM tiles",
-      "language": "TypeScript",
-      "stars": 1,
-      "updated_at": "2026-03-02T07:49:25Z",
-      "topics": [],
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "fork": false,
-      "open_issues_count": 2,
-      "watchers_count": 1,
-      "forks_count": 0
-    },
-    {
       "name": "quad-hexer",
       "full_name": "sanak/quad-hexer",
       "url": "https://github.com/sanak/quad-hexer",
@@ -350,7 +350,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-09-10T03:13:23Z",
+      "updated_at": "2026-09-11T03:08:27Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -365,7 +365,7 @@
       "description": null,
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-09-09T19:50:07Z",
+      "updated_at": "2026-09-10T21:53:45Z",
       "topics": [],
       "license": {
         "key": "other",
@@ -375,7 +375,22 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 0,
+      "open_issues_count": 2,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "Dips-Next",
+      "full_name": "AirBee-Project/Dips-Next",
+      "url": "https://github.com/AirBee-Project/Dips-Next",
+      "description": "時空間IDを用いてドローンの航路を決定するソフトウェア",
+      "language": "TypeScript",
+      "stars": 0,
+      "updated_at": "2026-09-10T14:42:01Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 12,
       "watchers_count": 0,
       "forks_count": 0
     },
@@ -386,7 +401,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-09-09T03:26:35Z",
+      "updated_at": "2026-09-10T03:24:54Z",
       "topics": [],
       "license": null,
       "fork": false,
