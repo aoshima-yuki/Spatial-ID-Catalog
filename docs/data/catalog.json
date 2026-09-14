@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T03:33:08.820822Z",
+  "generated_at": "2026-09-14T03:42:57.928229Z",
   "repo_count": 37,
   "repos": [
     {
@@ -267,7 +267,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-09-12T13:55:24Z",
+      "updated_at": "2026-09-14T00:45:53Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -277,7 +277,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 14,
+      "open_issues_count": 12,
       "watchers_count": 1,
       "forks_count": 2
     },
@@ -371,22 +371,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-09-13T03:18:40Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-09-12T03:26:57Z",
+      "updated_at": "2026-09-14T03:30:21Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -401,7 +386,7 @@
       "description": null,
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-09-11T10:21:35Z",
+      "updated_at": "2026-09-14T00:03:34Z",
       "topics": [],
       "license": {
         "key": "other",
@@ -412,6 +397,21 @@
       },
       "fork": false,
       "open_issues_count": 3,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-09-13T03:33:13Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
       "watchers_count": 0,
       "forks_count": 0
     },
