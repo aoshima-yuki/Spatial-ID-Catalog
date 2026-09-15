@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:42:57.928229Z",
+  "generated_at": "2026-09-15T03:43:36.297517Z",
   "repo_count": 37,
   "repos": [
     {
@@ -267,7 +267,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-09-14T00:45:53Z",
+      "updated_at": "2026-09-14T15:25:50Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -371,7 +371,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-09-14T03:30:21Z",
+      "updated_at": "2026-09-15T03:31:37Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -383,11 +383,26 @@
       "name": "spatial-ide",
       "full_name": "christopherdonini/spatial-ide",
       "url": "https://github.com/christopherdonini/spatial-ide",
-      "description": null,
+      "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-09-14T00:03:34Z",
-      "topics": [],
+      "updated_at": "2026-09-15T01:02:46Z",
+      "topics": [
+        "agpl",
+        "deck-gl",
+        "desktop-app",
+        "duckdb",
+        "geoparquet",
+        "geospatial",
+        "gis",
+        "local-first",
+        "parquet",
+        "rust",
+        "spatial-data",
+        "tauri",
+        "typescript",
+        "windows"
+      ],
       "license": {
         "key": "other",
         "name": "Other",
@@ -396,7 +411,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 3,
+      "open_issues_count": 6,
       "watchers_count": 0,
       "forks_count": 0
     },
@@ -407,7 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-09-13T03:33:13Z",
+      "updated_at": "2026-09-14T03:43:02Z",
       "topics": [],
       "license": null,
       "fork": false,
