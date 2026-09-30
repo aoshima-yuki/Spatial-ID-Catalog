@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T04:36:22.104825Z",
+  "generated_at": "2026-09-30T04:20:01.746267Z",
   "repo_count": 38,
   "repos": [
     {
@@ -267,7 +267,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-09-24T05:53:22Z",
+      "updated_at": "2026-09-29T13:38:46Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -380,13 +380,28 @@
       "forks_count": 0
     },
     {
+      "name": "Spatial-ID-OSS-List",
+      "full_name": "ODS-IS-STID/Spatial-ID-OSS-List",
+      "url": "https://github.com/ODS-IS-STID/Spatial-ID-OSS-List",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-09-30T04:06:27Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
       "name": "spatial-ide",
       "full_name": "christopherdonini/spatial-ide",
       "url": "https://github.com/christopherdonini/spatial-ide",
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-09-29T04:34:07Z",
+      "updated_at": "2026-09-30T03:39:05Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -411,22 +426,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-OSS-List",
-      "full_name": "ODS-IS-STID/Spatial-ID-OSS-List",
-      "url": "https://github.com/ODS-IS-STID/Spatial-ID-OSS-List",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-09-29T04:23:11Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
+      "open_issues_count": 1,
       "watchers_count": 0,
       "forks_count": 0
     },
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-09-28T04:03:05Z",
+      "updated_at": "2026-09-29T04:36:28Z",
       "topics": [],
       "license": null,
       "fork": false,
