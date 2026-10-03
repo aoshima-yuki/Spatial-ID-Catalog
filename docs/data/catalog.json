@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:24:27.094110Z",
+  "generated_at": "2026-10-03T04:06:45.773015Z",
   "repo_count": 38,
   "repos": [
     {
@@ -21,7 +21,7 @@
       "fork": false,
       "open_issues_count": 1,
       "watchers_count": 15,
-      "forks_count": 5
+      "forks_count": 6
     },
     {
       "name": "PLATEAU-generator-for-spatialid",
@@ -29,8 +29,8 @@
       "url": "https://github.com/Project-PLATEAU/PLATEAU-generator-for-spatialid",
       "description": "PLATEAUのための空間ID生成ツール",
       "language": "Python",
-      "stars": 10,
-      "updated_at": "2026-01-15T14:52:52Z",
+      "stars": 11,
+      "updated_at": "2026-10-02T09:26:57Z",
       "topics": [
         "citygml",
         "plateau-tool"
@@ -44,8 +44,8 @@
       },
       "fork": false,
       "open_issues_count": 0,
-      "watchers_count": 10,
-      "forks_count": 5
+      "watchers_count": 11,
+      "forks_count": 6
     },
     {
       "name": "PLATEAU-TwinLink",
@@ -386,7 +386,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-02T04:11:31Z",
+      "updated_at": "2026-10-03T03:54:07Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -401,7 +401,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-10-01T12:46:13Z",
+      "updated_at": "2026-10-02T22:31:08Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -426,7 +426,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 1,
+      "open_issues_count": 2,
       "watchers_count": 0,
       "forks_count": 0
     },
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-01T04:32:03Z",
+      "updated_at": "2026-10-02T04:24:31Z",
       "topics": [],
       "license": null,
       "fork": false,
