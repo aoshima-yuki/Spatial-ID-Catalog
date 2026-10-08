@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T04:40:49.713348Z",
+  "generated_at": "2026-10-08T04:51:15.250839Z",
   "repo_count": 38,
   "repos": [
     {
@@ -72,6 +72,21 @@
       "forks_count": 3
     },
     {
+      "name": "Kasane",
+      "full_name": "AirBee-Project/Kasane",
+      "url": "https://github.com/AirBee-Project/Kasane",
+      "description": "空間IDを扱う汎用データベースソフトウエア",
+      "language": "Rust",
+      "stars": 3,
+      "updated_at": "2026-10-07T10:47:02Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 12,
+      "watchers_count": 3,
+      "forks_count": 2
+    },
+    {
       "name": "spatial_id_viewer",
       "full_name": "trajectoryjp/spatial_id_viewer",
       "url": "https://github.com/trajectoryjp/spatial_id_viewer",
@@ -111,21 +126,6 @@
       "open_issues_count": 0,
       "watchers_count": 3,
       "forks_count": 3
-    },
-    {
-      "name": "Kasane",
-      "full_name": "AirBee-Project/Kasane",
-      "url": "https://github.com/AirBee-Project/Kasane",
-      "description": "空間IDを扱う汎用データベースソフトウエア",
-      "language": "Rust",
-      "stars": 2,
-      "updated_at": "2026-09-30T11:21:07Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 12,
-      "watchers_count": 2,
-      "forks_count": 2
     },
     {
       "name": "spatial-id-terrain-voxelizer",
@@ -267,7 +267,7 @@
       "description": "時空間IDについてRustで演算するライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-04T21:54:33Z",
+      "updated_at": "2026-10-08T01:23:41Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -380,13 +380,28 @@
       "forks_count": 0
     },
     {
+      "name": "Spatial-ID-OSS-List",
+      "full_name": "ODS-IS-STID/Spatial-ID-OSS-List",
+      "url": "https://github.com/ODS-IS-STID/Spatial-ID-OSS-List",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-10-08T04:38:33Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
       "name": "spatial-ide",
       "full_name": "christopherdonini/spatial-ide",
       "url": "https://github.com/christopherdonini/spatial-ide",
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-10-07T04:38:26Z",
+      "updated_at": "2026-10-08T04:38:00Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -411,21 +426,6 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 1,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-OSS-List",
-      "full_name": "ODS-IS-STID/Spatial-ID-OSS-List",
-      "url": "https://github.com/ODS-IS-STID/Spatial-ID-OSS-List",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-10-07T04:27:25Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
       "open_issues_count": 0,
       "watchers_count": 0,
       "forks_count": 0
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-06T05:13:03Z",
+      "updated_at": "2026-10-07T04:40:54Z",
       "topics": [],
       "license": null,
       "fork": false,
