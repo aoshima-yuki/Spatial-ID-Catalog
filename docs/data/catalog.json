@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T04:54:16.214918Z",
-  "repo_count": 38,
+  "generated_at": "2026-10-10T04:39:53.748520Z",
+  "repo_count": 39,
   "repos": [
     {
       "name": "javascript-sdk",
@@ -386,7 +386,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-09T04:41:41Z",
+      "updated_at": "2026-10-10T04:27:27Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -401,7 +401,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 0,
-      "updated_at": "2026-10-08T23:58:17Z",
+      "updated_at": "2026-10-09T20:44:14Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-08T04:51:19Z",
+      "updated_at": "2026-10-09T04:54:21Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -468,6 +468,21 @@
       "language": "Rust",
       "stars": 0,
       "updated_at": "2026-07-17T12:23:39Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "auberge-noir-spatial-identity",
+      "full_name": "muntaha-shafique/auberge-noir-spatial-identity",
+      "url": "https://github.com/muntaha-shafique/auberge-noir-spatial-identity",
+      "description": "A cinematic hospitality portfolio experience inspired by Scandinavian-Japanese interiors, tactile luxury, and immersive boutique hotel branding.",
+      "language": "CSS",
+      "stars": 0,
+      "updated_at": "2026-07-06T12:29:34Z",
       "topics": [],
       "license": null,
       "fork": false,
