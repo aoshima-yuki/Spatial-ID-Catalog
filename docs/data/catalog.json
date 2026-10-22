@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:35:15.838798Z",
+  "generated_at": "2026-10-22T03:35:06.857092Z",
   "repo_count": 39,
   "repos": [
     {
@@ -267,7 +267,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-21T03:30:47Z",
+      "updated_at": "2026-10-22T03:17:31Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -292,18 +292,18 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 2,
+      "open_issues_count": 1,
       "watchers_count": 1,
       "forks_count": 0
     },
     {
-      "name": "Kasane-Logic",
-      "full_name": "AirBee-Project/Kasane-Logic",
-      "url": "https://github.com/AirBee-Project/Kasane-Logic",
-      "description": "時空間IDについてRustで演算するライブラリ",
+      "name": "spatial-id-rs",
+      "full_name": "AirBee-Project/spatial-id-rs",
+      "url": "https://github.com/AirBee-Project/spatial-id-rs",
+      "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-21T03:19:08Z",
+      "updated_at": "2026-10-21T17:40:05Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -313,7 +313,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 26,
+      "open_issues_count": 19,
       "watchers_count": 1,
       "forks_count": 2
     },
@@ -422,7 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-21T03:25:28Z",
+      "updated_at": "2026-10-22T03:24:15Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-20T03:43:59Z",
+      "updated_at": "2026-10-21T03:35:20Z",
       "topics": [],
       "license": null,
       "fork": false,
