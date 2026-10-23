@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T03:35:06.857092Z",
+  "generated_at": "2026-10-23T03:39:57.177949Z",
   "repo_count": 39,
   "repos": [
     {
@@ -134,7 +134,7 @@
       "description": "Dynamically generate and visualize Spatial ID voxels from DEM tiles",
       "language": "TypeScript",
       "stars": 2,
-      "updated_at": "2026-09-11T00:12:20Z",
+      "updated_at": "2026-10-22T15:35:32Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -144,7 +144,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 2,
+      "open_issues_count": 1,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -267,7 +267,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-22T03:17:31Z",
+      "updated_at": "2026-10-23T02:59:43Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -292,7 +292,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 1,
+      "open_issues_count": 4,
       "watchers_count": 1,
       "forks_count": 0
     },
@@ -303,7 +303,7 @@
       "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-21T17:40:05Z",
+      "updated_at": "2026-10-23T02:02:00Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -313,7 +313,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 19,
+      "open_issues_count": 20,
       "watchers_count": 1,
       "forks_count": 2
     },
@@ -422,7 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-22T03:24:15Z",
+      "updated_at": "2026-10-23T03:29:39Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-21T03:35:20Z",
+      "updated_at": "2026-10-22T03:35:11Z",
       "topics": [],
       "license": null,
       "fork": false,
