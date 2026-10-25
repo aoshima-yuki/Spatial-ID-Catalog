@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:33:56.598413Z",
+  "generated_at": "2026-10-25T03:30:51.405953Z",
   "repo_count": 39,
   "repos": [
     {
@@ -126,6 +126,42 @@
       "open_issues_count": 0,
       "watchers_count": 3,
       "forks_count": 3
+    },
+    {
+      "name": "spatial-ide",
+      "full_name": "christopherdonini/spatial-ide",
+      "url": "https://github.com/christopherdonini/spatial-ide",
+      "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
+      "language": "Rust",
+      "stars": 2,
+      "updated_at": "2026-10-25T01:53:25Z",
+      "topics": [
+        "agpl",
+        "deck-gl",
+        "desktop-app",
+        "duckdb",
+        "geoparquet",
+        "geospatial",
+        "gis",
+        "local-first",
+        "parquet",
+        "rust",
+        "spatial-data",
+        "tauri",
+        "typescript",
+        "windows"
+      ],
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "fork": false,
+      "open_issues_count": 8,
+      "watchers_count": 2,
+      "forks_count": 0
     },
     {
       "name": "spatial-id-terrain-voxelizer",
@@ -261,42 +297,6 @@
       "forks_count": 0
     },
     {
-      "name": "spatial-ide",
-      "full_name": "christopherdonini/spatial-ide",
-      "url": "https://github.com/christopherdonini/spatial-ide",
-      "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
-      "language": "Rust",
-      "stars": 1,
-      "updated_at": "2026-10-23T20:23:14Z",
-      "topics": [
-        "agpl",
-        "deck-gl",
-        "desktop-app",
-        "duckdb",
-        "geoparquet",
-        "geospatial",
-        "gis",
-        "local-first",
-        "parquet",
-        "rust",
-        "spatial-data",
-        "tauri",
-        "typescript",
-        "windows"
-      ],
-      "license": {
-        "key": "other",
-        "name": "Other",
-        "spdx_id": "NOASSERTION",
-        "url": null,
-        "node_id": "MDc6TGljZW5zZTA="
-      },
-      "fork": false,
-      "open_issues_count": 3,
-      "watchers_count": 1,
-      "forks_count": 0
-    },
-    {
       "name": "spatial-id-rs",
       "full_name": "AirBee-Project/spatial-id-rs",
       "url": "https://github.com/AirBee-Project/spatial-id-rs",
@@ -422,7 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-24T03:23:59Z",
+      "updated_at": "2026-10-25T03:19:13Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-23T03:40:02Z",
+      "updated_at": "2026-10-24T03:34:00Z",
       "topics": [],
       "license": null,
       "fork": false,
