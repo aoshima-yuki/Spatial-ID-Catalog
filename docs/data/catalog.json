@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T03:33:19.532381Z",
+  "generated_at": "2026-10-27T03:58:47.382969Z",
   "repo_count": 39,
   "repos": [
     {
@@ -78,11 +78,11 @@
       "description": "空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 3,
-      "updated_at": "2026-10-07T10:47:02Z",
+      "updated_at": "2026-10-26T06:00:14Z",
       "topics": [],
       "license": null,
       "fork": false,
-      "open_issues_count": 12,
+      "open_issues_count": 8,
       "watchers_count": 3,
       "forks_count": 2
     },
@@ -134,7 +134,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-10-26T03:29:51Z",
+      "updated_at": "2026-10-27T00:00:52Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -159,7 +159,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 5,
+      "open_issues_count": 0,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -303,7 +303,7 @@
       "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-23T16:08:03Z",
+      "updated_at": "2026-10-26T05:54:37Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -422,7 +422,22 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-26T03:21:03Z",
+      "updated_at": "2026-10-27T03:49:13Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-10-26T03:33:24Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -438,21 +453,6 @@
       "language": "Rust",
       "stars": 0,
       "updated_at": "2026-10-25T17:05:24Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-10-25T03:30:55Z",
       "topics": [],
       "license": null,
       "fork": false,
