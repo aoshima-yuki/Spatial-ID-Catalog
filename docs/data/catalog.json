@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T04:41:30.383676Z",
+  "generated_at": "2026-10-31T04:25:55.803965Z",
   "repo_count": 39,
   "repos": [
     {
@@ -134,7 +134,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-10-29T13:13:44Z",
+      "updated_at": "2026-10-30T07:16:21Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -159,7 +159,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 2,
+      "open_issues_count": 1,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -303,7 +303,7 @@
       "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-10-28T02:07:21Z",
+      "updated_at": "2026-10-30T15:27:48Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -313,7 +313,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 27,
+      "open_issues_count": 32,
       "watchers_count": 1,
       "forks_count": 2
     },
@@ -422,7 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-30T04:30:11Z",
+      "updated_at": "2026-10-31T04:11:47Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -437,7 +437,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-10-29T04:42:00Z",
+      "updated_at": "2026-10-30T04:41:34Z",
       "topics": [],
       "license": null,
       "fork": false,
