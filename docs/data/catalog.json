@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T05:27:06.727583Z",
-  "repo_count": 39,
+  "generated_at": "2026-11-07T04:55:25.192904Z",
+  "repo_count": 40,
   "repos": [
     {
       "name": "javascript-sdk",
@@ -75,10 +75,10 @@
       "name": "Kasane",
       "full_name": "AirBee-Project/Kasane",
       "url": "https://github.com/AirBee-Project/Kasane",
-      "description": "空間IDを扱う汎用データベースソフトウエア",
+      "description": "時空間IDを扱う汎用データベースソフトウエア",
       "language": "Rust",
       "stars": 3,
-      "updated_at": "2026-10-27T13:38:34Z",
+      "updated_at": "2026-11-06T14:47:20Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -134,7 +134,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-11-06T05:15:48Z",
+      "updated_at": "2026-11-07T00:12:07Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -159,7 +159,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 0,
+      "open_issues_count": 4,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -303,7 +303,7 @@
       "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-11-06T04:56:43Z",
+      "updated_at": "2026-11-07T03:06:01Z",
       "topics": [],
       "license": {
         "key": "mit",
@@ -313,7 +313,7 @@
         "node_id": "MDc6TGljZW5zZTEz"
       },
       "fork": false,
-      "open_issues_count": 31,
+      "open_issues_count": 32,
       "watchers_count": 1,
       "forks_count": 2
     },
@@ -422,7 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-11-06T05:14:33Z",
+      "updated_at": "2026-11-07T04:45:47Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -431,13 +431,28 @@
       "forks_count": 0
     },
     {
+      "name": "spatial-id-ts",
+      "full_name": "AirBee-Project/spatial-id-ts",
+      "url": "https://github.com/AirBee-Project/spatial-id-ts",
+      "description": "時空間IDを扱うTypeScirptライブラリ",
+      "language": "TypeScript",
+      "stars": 0,
+      "updated_at": "2026-11-07T01:33:40Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 11,
+      "watchers_count": 0,
+      "forks_count": 1
+    },
+    {
       "name": "Spatial-ID-Catalog",
       "full_name": "aoshima-yuki/Spatial-ID-Catalog",
       "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-11-05T05:28:32Z",
+      "updated_at": "2026-11-06T05:27:11Z",
       "topics": [],
       "license": null,
       "fork": false,
