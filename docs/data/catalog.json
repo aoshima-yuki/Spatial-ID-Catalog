@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T04:48:31.136251Z",
+  "generated_at": "2026-11-09T04:56:59.653369Z",
   "repo_count": 40,
   "repos": [
     {
@@ -134,7 +134,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-11-08T02:44:29Z",
+      "updated_at": "2026-11-08T20:56:32Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -159,7 +159,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 3,
+      "open_issues_count": 2,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -303,7 +303,7 @@
       "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-11-07T22:15:27Z",
+      "updated_at": "2026-11-08T07:53:23Z",
       "topics": [],
       "license": {
         "key": "bsd-3-clause-clear",
@@ -422,22 +422,7 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-11-08T04:35:28Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
-      "name": "Spatial-ID-Catalog",
-      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
-      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "updated_at": "2026-11-07T04:55:29Z",
+      "updated_at": "2026-11-09T04:46:28Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -452,13 +437,28 @@
       "description": "時空間IDを扱うTypeScirptライブラリ",
       "language": "TypeScript",
       "stars": 0,
-      "updated_at": "2026-11-07T01:33:40Z",
+      "updated_at": "2026-11-08T12:57:24Z",
       "topics": [],
       "license": null,
       "fork": false,
-      "open_issues_count": 11,
+      "open_issues_count": 4,
       "watchers_count": 0,
       "forks_count": 1
+    },
+    {
+      "name": "Spatial-ID-Catalog",
+      "full_name": "aoshima-yuki/Spatial-ID-Catalog",
+      "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "updated_at": "2026-11-08T04:48:35Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
     },
     {
       "name": "Nazori",
