@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:00:38.952822Z",
+  "generated_at": "2026-11-13T05:25:29.507863Z",
   "repo_count": 42,
   "repos": [
     {
@@ -134,7 +134,7 @@
       "description": "An AI-native spatial computing platform: a headless spatial kernel, designed so that the UI, CLI, notebooks and AI are all clients of it. v0.1.0 is a Windows prototype — open a GeoParquet, filter it in SQL, style it, publish a static interactive bundle. AGPL-3.0-or-later core; the SKP protocol and file formats are open.",
       "language": "Rust",
       "stars": 2,
-      "updated_at": "2026-11-12T05:21:29Z",
+      "updated_at": "2026-11-12T15:38:04Z",
       "topics": [
         "agpl",
         "deck-gl",
@@ -159,7 +159,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 1,
+      "open_issues_count": 2,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -303,7 +303,7 @@
       "description": "時空間IDを扱うRustライブラリ",
       "language": "Rust",
       "stars": 1,
-      "updated_at": "2026-11-12T05:19:16Z",
+      "updated_at": "2026-11-12T10:06:55Z",
       "topics": [],
       "license": {
         "key": "bsd-3-clause-clear",
@@ -313,7 +313,7 @@
         "node_id": "MDc6TGljZW5zZTIx"
       },
       "fork": false,
-      "open_issues_count": 38,
+      "open_issues_count": 35,
       "watchers_count": 1,
       "forks_count": 2
     },
@@ -422,7 +422,7 @@
       "description": "Build mirror of omoresearch/omo-spatial-ide (non-fork, used only for GitHub Actions release builds)",
       "language": "TypeScript",
       "stars": 0,
-      "updated_at": "2026-11-11T11:45:40Z",
+      "updated_at": "2026-11-12T15:34:27Z",
       "topics": [],
       "license": {
         "key": "epl-2.0",
@@ -437,28 +437,13 @@
       "forks_count": 0
     },
     {
-      "name": "spatial-ide",
-      "full_name": "vnparmane/spatial-ide",
-      "url": "https://github.com/vnparmane/spatial-ide",
-      "description": "A spatial IDE where every source file is a live panel on a zoomable canvas.",
-      "language": "TypeScript",
-      "stars": 0,
-      "updated_at": "2026-11-11T06:03:05Z",
-      "topics": [],
-      "license": null,
-      "fork": false,
-      "open_issues_count": 0,
-      "watchers_count": 0,
-      "forks_count": 0
-    },
-    {
       "name": "Spatial-ID-Catalog",
       "full_name": "aoshima-yuki/Spatial-ID-Catalog",
       "url": "https://github.com/aoshima-yuki/Spatial-ID-Catalog",
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-11-11T05:58:43Z",
+      "updated_at": "2026-11-12T07:00:44Z",
       "topics": [],
       "license": null,
       "fork": false,
@@ -473,7 +458,22 @@
       "description": null,
       "language": "Python",
       "stars": 0,
-      "updated_at": "2026-11-11T05:49:23Z",
+      "updated_at": "2026-11-12T06:51:26Z",
+      "topics": [],
+      "license": null,
+      "fork": false,
+      "open_issues_count": 0,
+      "watchers_count": 0,
+      "forks_count": 0
+    },
+    {
+      "name": "spatial-ide",
+      "full_name": "vnparmane/spatial-ide",
+      "url": "https://github.com/vnparmane/spatial-ide",
+      "description": "A spatial IDE where every source file is a live panel on a zoomable canvas.",
+      "language": "TypeScript",
+      "stars": 0,
+      "updated_at": "2026-11-11T06:03:05Z",
       "topics": [],
       "license": null,
       "fork": false,
