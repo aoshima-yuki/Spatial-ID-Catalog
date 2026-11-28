@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T07:01:51.202058Z",
+  "generated_at": "2026-11-28T06:36:53.926448Z",
   "repo_count": 42,
   "repos": [
     {
@@ -159,7 +159,7 @@
         "node_id": "MDc6TGljZW5zZTA="
       },
       "fork": false,
-      "open_issues_count": 13,
+      "open_issues_count": 17,
       "watchers_count": 2,
       "forks_count": 0
     },
@@ -313,7 +313,7 @@
         "node_id": "MDc6TGljZW5zZTIx"
       },
       "fork": false,
-      "open_issues_count": 49,
+      "open_issues_count": 48,
       "watchers_count": 1,
       "forks_count": 2
     },
